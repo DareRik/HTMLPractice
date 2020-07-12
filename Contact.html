@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <p>Derek Leong</p>
+    <p>925-123-4567</p>
+    <p>987 Address St., CA 95112</p>
+    <br><hr><br>
+    <h2>Request For Follow Up</h2>
+    <form action="mailto:derek.leong12@gmail.com?subject=Feedback" method="post" enctype="text/plain">
+      <p><label for="Name">Your Name:</label>
+        <input type="text" name="Your Name" value=""><br>
+      </p>
+      <p><label for="email">Your Email:</label>
+         <input type="email" name="Your Email" value="">
+      </p>
+      <table cellspacing="10">
+        <tr>
+          <td><label for="email">Email Me</label></td>
+          <td><input type="checkbox" name="Yes" value="Email me"></td>
+        </tr>
+        <tr>
+          <td><label for="call">Call Me</label></td>
+          <td><input type="checkbox" name="Yes" value="Call me"></td>
+        </tr>
+        <tr>
+          <td><label for="dnd">Never contact me again!</label></td>
+          <td><input type="checkbox" name="Yes" value="Never contact me again!"></td>
+        </tr>
+      </table>
+      <br>
+      <label for="">Your Message:</label><br>
+      <textarea name="name" rows="10" cols="50"></textarea>
+      <br><br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
